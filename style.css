@@ -71,7 +71,7 @@ body {
     gap: 0.7rem;
 }
 
-.card .card-content .card-tags .card-tag {
+.card .card-content .card-tag {
     background-color: var(--color-yellow);
     padding: 0.25rem 0.75rem;
     border-radius: 0.25rem;
@@ -133,7 +133,7 @@ body {
 
 @media (prefers-reduced-motion: reduce) {
     .card:hover {
-        transition: none !important;
-        transform: none !important;
+        transition: none;
+        transform: none;
     }
 }
