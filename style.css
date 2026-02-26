@@ -24,6 +24,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1.5rem;
 }
 
 .card {
@@ -70,7 +71,7 @@ body {
     gap: 0.7rem;
 }
 
-.card .card-content .card-tags > .card-tag {
+.card .card-content .card-tags .card-tag {
     background-color: var(--color-yellow);
     padding: 0.25rem 0.75rem;
     border-radius: 0.25rem;
@@ -128,4 +129,11 @@ body {
     flex-wrap: wrap;
     gap: 0.125rem;
     text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .card:hover {
+        transition: none !important;
+        transform: none !important;
+    }
 }
